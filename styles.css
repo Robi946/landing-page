@@ -22,7 +22,8 @@ body {
 .header,
 .content > div,
 .footer {
-  padding: 0 16vw;
+  padding-left: 16vw;
+  padding-right: 16vw;
 }
 
 .header {
@@ -48,6 +49,39 @@ body {
   color: #e5e7eb;
 }
 
+.upper-section {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.upper-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.upper-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.upper-button {
+  border: none;
+}
+
+#sunset-img {
+  height: auto;
+  width: 706px;
+}
+
+.sinner-img {
+  height: auto;
+  width: 150px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -57,6 +91,15 @@ body {
   color: white;
 }
 
+.button {
+  padding: 8px 48px;
+  color: #f9faf8;
+  background-color: #3b82f6;
+  border-radius: 12px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 ul {
   display: flex;
   list-style-type: none;
@@ -64,4 +107,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 22px;
 }
