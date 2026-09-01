@@ -48,6 +48,15 @@ body {
   color: #e5e7eb;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: white;
+}
+
 ul {
   display: flex;
   list-style-type: none;
