@@ -140,6 +140,28 @@ body {
   font-weight: 600;
 }
 
+.ad-section {
+  padding-top: 136px;
+  padding-bottom: 136px;
+}
+
+.ad-section-inside {
+  display: flex;
+  justify-content: space-between;
+  padding: 69px 160px;
+  border-radius: 12px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.ad-paragraph {
+  font-size: 17px;
+}
+
+.button.ad-button {
+  border: 2px solid #f9faf8;
+}
+
 .footer {
   display: flex;
   justify-content: center;
